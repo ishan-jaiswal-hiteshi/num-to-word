@@ -1,7 +1,6 @@
 import './App.css'
 import React, { useState } from 'react';
-import { toWords } from 'number-to-words'; // Library to convert number to words
-
+import { toWords } from 'number-to-words'; // Library to convert number to word
 function App() {
 
   const [inputNumber, setInputNumber] = useState('');
